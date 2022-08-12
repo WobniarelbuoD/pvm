@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+#back{
+background: rgb(24,36,0);
+background: linear-gradient(90deg, rgba(24,36,0,1) 0%, rgba(9,90,121,1) 30%, rgba(186,5,136,1) 66%, rgba(0,212,255,1) 100%);
+height:100vh;
+}
+#contain{
+  width:800px;
+  height:300px;
+  background: rgb(34,116,195);
+  background: linear-gradient(0deg, rgba(34,116,195,1) 0%, rgba(173,97,97,1) 52%, rgba(253,219,45,1) 100%);
+  border-radius: 10px;
+  position:absolute;
+  left:30%;
+  top:20%;
+}
+#contain div{
+  color:white;
+  width:70%;
+  display:flex;
+  justify-content: flex-end;
+  margin-bottom: 3%;
+}
+#contain div:first-child{
+  margin-top: 4%;
+}
+.content{
+  background-color: white;
+  color:black;
+  margin-left:2%;
+  width:50%;
+  border-radius: 10px;
+  border:solid 1px grey;
+  text-align: end;
+  font-size: 1.5rem;
+}
+p{
+  font-weight: bolder;
+}
+#kebab{
+  max-width: 800px;
+  color:white;
+  font-weight: bold;
+  font-size: 24px;
+  position:absolute;
+  left: 30%;
+  top:55%;
+  text-align: center;
+}
+h1{
+  color:white;
+}
